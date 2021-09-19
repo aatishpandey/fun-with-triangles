@@ -25,13 +25,13 @@
     <h1>is Triangle?</h1>
     <p>Angle 1</p>
     <label for="angle1"></label>
-    <input type="number" class="input-angle"/>
+    <input type="number" class="input-angle" min=0 oninput="validity.valid||(value='');"/>
     <p>Angle 1</p>
     <label for="angle2"></label>
-    <input type="number" class="input-angle"/>
+    <input type="number" class="input-angle" min=0 oninput="validity.valid||(value='');"/>
     <p>Angle 1</p>
     <label for="angle3"></label>
-    <input type="number" class="input-angle"/>
+    <input type="number" class="input-angle" min=0 oninput="validity.valid||(value='');"/>
 
     <button id="submit-answer-btn">Check</button>
     <div id="output"></div>
