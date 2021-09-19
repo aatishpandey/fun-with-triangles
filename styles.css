@@ -73,7 +73,7 @@ a{
   }
 
 
-  #submit-answer-btn {
+  #submit-answer-btn{
     background: var(--primary-color);
     border: none;
     color: #fff;
