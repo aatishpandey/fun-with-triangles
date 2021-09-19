@@ -45,6 +45,11 @@ a{
     margin: 1rem;
 }
 
+.main-quiz p{
+    font-size: larger;
+    margin: 0.5rem;
+}
+
 #quiz-nav > a{
     padding: 0 0.5rem;
 }
@@ -64,6 +69,7 @@ a{
     font-size: 1.3rem;
     margin: 1rem;
     font-weight: bolder;
+    color: white;
   }
 
 
@@ -78,4 +84,16 @@ a{
     outline: #fff;
     margin: 1rem auto;
     display: block;
+  }
+
+  .input-angle{
+      display: block;
+      margin: auto;
+      width: 300px;
+      height: 8vh;
+      margin-bottom: 20px;
+      outline: none;
+      border-radius: 10px;
+      border: 2px solid var(--primary-color);
+      font-size: larger;
   }

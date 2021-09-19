@@ -5,19 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>is Triangle?</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+
+    <header id="quiz-header">
+        <h1>Fun with Triangles</h1>
+
+        <nav id="quiz-nav">
+            <a href="/pages/istriangle.html">Is Triangle?</a>
+            <a href="/">Quiz</a>
+            <a href="/pages/hypotenuse.html">Hypotenuse</a>
+            <a href="/pages/AreaOfTriangle.html">Area of Triangle</a>
+        </nav>
+
+    </header>
+
+    <main class="main-quiz">
     <h1>is Triangle?</h1>
+    <p>Angle 1</p>
     <label for="angle1"></label>
     <input type="number" class="input-angle"/>
+    <p>Angle 1</p>
     <label for="angle2"></label>
     <input type="number" class="input-angle"/>
+    <p>Angle 1</p>
     <label for="angle3"></label>
     <input type="number" class="input-angle"/>
 
-    <button id="btn-check">Check</button>
+    <button id="submit-answer-btn">Check</button>
     <div id="output"></div>
 
-    <script src="/isTriangle.js"></script>
+    </main>
+
+    <script src="/scripts/isTriangle.js"></script>
 </body>
 </html>
