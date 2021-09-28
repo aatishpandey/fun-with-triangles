@@ -8,7 +8,7 @@ const correctAnswers = ["90°","right angled","45°","no","100°"];
 function calculateScoreOf(){
     let score=0;
     let index=0;
-
+    let num=0;
     const formResults = new FormData(quizForm);
 
     for(let value of formResults.values()){
@@ -17,9 +17,14 @@ function calculateScoreOf(){
         console.log(score);
     }
         index = index+1;
+        num=num+1;
     }
     // console.log(score);
-    outputE1.innerText = "Your score is " + score;
+    if(num === 5)
+    {outputE1.innerText = "Your score is " + score;}
+    else{
+        outputE1.innerText = "Please select all answers";
+    }
 }
 
 SubmitAnsBtn.addEventListener("click",calculateScoreOf);
